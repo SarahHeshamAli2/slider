@@ -114,3 +114,26 @@ span.next:hover, span.prev:hover{
     }
 }
 
+
+
+
+/* 
+
+Media query for RWD
+*/
+
+
+@media only screen and (max-width : 1110px) {
+    .slide-container  {
+        width: 90%;
+        height: 350px;
+        /* display: flex;
+        align-items: center; */
+
+    }
+    body {
+        display: flex;
+        align-items: center;
+    }
+
+}
